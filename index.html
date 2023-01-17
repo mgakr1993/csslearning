@@ -23,6 +23,7 @@
     	color: orange;
     	background-image: url("img/img07.gif");
     	background-attachment: scroll;
+    	background-size: contain;
 
     }
 
@@ -55,6 +56,14 @@
       border-bottom-width: 5px;
       border-color: orange;
 		}
+
+	rect {
+		fill:rgb(200,100,100);
+		stroke-width:3;
+		stroke:rgb(0,0,0);
+		position: absolute;
+	}
+
 </style>
 
 
@@ -133,7 +142,26 @@
 </table>
 <hr>
 
+<svg width="100%" height="10px" >
+	<rect x="0" y="0" width="10%" height="10px" />	
+	<rect x="10%" y="0" width="10%" height="10px" />
+	<rect x="20%" y="0" width="10%" height="10px" />
+	<rect x="30%" y="0" width="10%" height="10px" />
+	<rect x="40%" y="0" width="10%" height="10px" />
+	<rect x="50%" y="0" width="10%" height="10px" />
+	<rect x="60%" y="0" width="10%" height="10px" />
+	<rect x="70%" y="0" width="10%" height="10px" />
+	<rect x="80%" y="0" width="10%" height="10px" />
+	<rect x="90%" y="0" width="10%" height="10px" />
+</svg>	
+
+<hr>
+<img style="position: relative; left: 35%;width: 30%;" src="img/img10.jpg"/>
+<hr>
+
 <a style="color: yellow;" href="#id1"> Click here to go to the top page </a>
+
+
 
 </body>
 </html>
